@@ -1,0 +1,7 @@
+# dependencies
+/node_modules
+/.venv
+
+# environments
+.env
+.DS_Store
