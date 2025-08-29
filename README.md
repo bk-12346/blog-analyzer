@@ -31,8 +31,8 @@ Installation
     Bash
 
     ```
-    git clone [your-repository-url]
-    cd [your-project-directory]
+    git clone https://github.com/bk-12346/blog-analyzer
+    cd blog-analyzer
 
     ```
 
@@ -49,7 +49,7 @@ Installation
 
     ```
 
-3.  **Install the required packages:** You will need to create a `requirements.txt` file based on your project's dependencies (e.g., `langchain`, `langchain-openai`, `langchain-pinecone`, `python-dotenv`).
+3.  **Install the required packages:** 
 
     Bash
 
@@ -101,3 +101,4 @@ python main.py
 ```
 
 The script will output the results from both the `create_retrieval_chain` and the custom LCEL chain.
+
